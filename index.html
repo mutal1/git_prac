@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&family=Source+Sans+Pro:ital,wght@1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ddbbdfbe8f.js" crossorigin="anonymous"></script>
+    <title>Youtube</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!--video player-->
+    <section class="player">
+        <video controls src="video/file_example_MP4_480_1_5MG.mp4"></video>
+    </section>
+
+    <div class="infoAndUpNext"><!--video informaition box-->
+        <section class="info">
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#Dreamcoding</li>
+                    <li>#dreamcoders</li>
+                    <li>#mutal</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid officiis, ad iure adipisci nam officia aspernatur quis tenetur voluptate dicta fugit neque, consequatur autem nihil error tempore voluptatum quaerat. Nihil.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid officiis, ad iure adipisci nam officia aspernatur quis tenetur voluptate dicta fugit neque, consequatur autem nihil error tempore voluptatum quaerat. Nihil.
+                    </span>
+                    <button class="moreBtn">
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
+                <span class="views">1M views 1 month ago</span>
+            </div>
+    
+            <!-- Actions-->
+            <div class="actions">
+                <li><button><i class="active fas fa-thumbs-up"></i><span>1K</span></button></li>
+                <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+                <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
+                <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+                <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li>
+            </div>
+            <!--channel-->
+            <div class="channel">
+                <div class="metadata"><img src="image/profile_image.jpg" alt="no">
+                    <div class="info">
+                        <span class="name">뾰리</span>
+                        <span class="subscribers">1K subscribers</span>
+                    </div>
+                </div>
+                <button class="subscribe">subscribe</button>
+            </div>
+        </section>
+        <section class="UpNext">
+            <span class="title">Up next</span>
+            <ul>
+                <li class="item">
+                <div class="img"><img src="image/video_imgae3.png" alt=""></div>
+                    <div class="info">
+                        <span class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid officiis, ad iure adipisci nam officia aspernatur quis tenetur voluptate dicta fugit neque, consequatur autem nihil error tempore voluptatum quaerat. Nihil.</span>
+                        <span class="name">fifo</span>
+                        <span class="views">1 views</span>
+                    </div>
+                    <buttion class="moreBtn"><i class="fas fa-ellipsis-v"></i></buttion>
+                </li>
+                <li class="item">
+                    <div class="img">
+                        <img src="image/video_imgae2.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <span class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid officiis, ad iure adipisci nam officia aspernatur quis tenetur voluptate dicta fugit neque, consequatur autem nihil error tempore voluptatum quaerat. Nihil.</span>
+                        <span class="name">눈따랑이</span>
+                        <span class="views">10K views</span>
+                    </div>
+                    <buttion class="moreBtn"><i class="fas fa-ellipsis-v"></i></buttion>
+                </li>
+                <li class="item">
+                    <div class="img">
+                        <img src="image/video_imgae1.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <span class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid officiis, ad iure adipisci nam officia aspernatur quis tenetur voluptate dicta fugit neque, consequatur autem nihil error tempore voluptatum quaerat. Nihil.</span>
+                        <span class="name">크런키</span>
+                        <span class="views">100M views </span>
+                    </div>
+                    <buttion class="moreBtn"><i class="fas fa-ellipsis-v"></i></buttion>
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+
+</html>
